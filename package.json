@@ -1,0 +1,14 @@
+{
+  "name": "addon_core_translation",
+  "description": "Download recent translation file from official concrete5 GitHub repository.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hissy/addon_core_translation.git"
+  },
+  "author": "Takuro Hishikawa <hishikawa@concrete5.co.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-zip": "latest"
+  }
+}
