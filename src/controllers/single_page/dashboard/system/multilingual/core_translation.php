@@ -17,21 +17,18 @@ class CoreTranslation extends \Concrete\Core\Page\Controller\DashboardPageContro
     {
         parent::on_start();
         
-        $adapter = new CurlAdapter();
-        $client = new Client();
-        $client->setAdapter($adapter);
-        $client->setUri(self::GITHUB_URL . self::STATS_FILE);
-        $this->stats = $client->send();
+        $fh = Core::make('helper/file');
+        $this->stats = $fh->getContents(self::GITHUB_URL . self::STATS_FILE);
     }
     
     public function view()
     {
         $resource_array = array();
         
-        if (!$this->stats->isSuccess()) {
+        if (!$this->stats) {
             $this->error->add(t('Unable to load stats.'));
         } else {
-            $xml = new SimpleXMLElement($this->stats->getBody());
+            $xml = new SimpleXMLElement($this->stats);
             $resources = $xml->xpath('/stats/resource');
             if (is_array($resources)) {
                 foreach ($resources as $resource) {
@@ -53,14 +50,14 @@ class CoreTranslation extends \Concrete\Core\Page\Controller\DashboardPageContro
             if (empty($selected)) {
                 $this->error->add(t('Please select a resource.'));
             }
-            if (!$this->stats->isSuccess()) {
+            if (!$this->stats) {
                 $this->error->add(t('Unable to load stats.'));
             }
             
             if (!$this->error->has()) {
                 $language_array = array();
                 
-                $xml = new SimpleXMLElement($this->stats->getBody());
+                $xml = new SimpleXMLElement($this->stats);
                 $resources = $xml->xpath('/stats/resource');
                 if (is_array($resources)) {
                     foreach ($resources as $resource) {
@@ -109,18 +106,13 @@ class CoreTranslation extends \Concrete\Core\Page\Controller\DashboardPageContro
             if (!$this->error->has()) {
                 $url = self::GITHUB_URL . $selected_resource . '/' . $selected_language . '.mo';
                 
-                $adapter = new CurlAdapter();
-                $client = new Client();
-                $client->setAdapter($adapter);
-                $client->setUri($url);
-                $response = $client->send();
+                $fh = Core::make('helper/file');
+                $response = $fh->getContents($url);
                 
-                if ($response->isSuccess()) {
-                    if (file_put_contents($language_dir.'/messages.mo', $response->getBody()) === false) {
-                        $this->error->add(t('Unable to save translation file.'));
-                    } else {
-                        $this->set('message', t('Translation updated successfully.'));
-                    }
+                if ($response) {
+                    $fh->clear($language_dir.'/messages.mo');
+                    $fh->append($language_dir.'/messages.mo', $response);
+                    $this->set('message', t('Translation updated.'));
                 } else {
                     $this->error->add(t('Unable to get translation file: %s', $url));
                 }
