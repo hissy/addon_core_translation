@@ -1,8 +1,6 @@
 <?php
 namespace Concrete\Package\CoreTranslation\Controller\SinglePage\Dashboard\System\Multilingual;
 
-use Zend\Http\Client\Adapter\Curl as CurlAdapter;
-use Zend\Http\Client;
 use SimpleXMLElement;
 use Punic\Language;
 use Config;
