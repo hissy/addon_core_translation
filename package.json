@@ -1,6 +1,6 @@
 {
   "name": "addon_core_translation",
-  "description": "Download recent translation file from official concrete5 GitHub repository.",
+  "description": "Download latest translation file from official concrete5 GitHub repository.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hissy/addon_core_translation.git"

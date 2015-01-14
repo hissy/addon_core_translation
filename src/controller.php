@@ -16,7 +16,7 @@ class Controller extends \Concrete\Core\Package\Package
     
     public function getPackageDescription()
     {
-        return t('Download recent translation file from official concrete5 GitHub repository.');
+        return t('Download latest translation file from official concrete5 GitHub repository.');
     }
 
     public function install()
