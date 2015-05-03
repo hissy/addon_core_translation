@@ -11,7 +11,7 @@ class Controller extends \Concrete\Core\Package\Package
     
     public function getPackageName()
     {
-        return t('Core Translation Updator');
+        return t('Core Translation Updater');
     }
     
     public function getPackageDescription()
