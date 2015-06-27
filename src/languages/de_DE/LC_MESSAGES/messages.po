@@ -1,0 +1,1071 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Update Core Translation\n"
+"Report-Msgid-Bugs-To: service@53nord.net\n"
+"POT-Creation-Date: 2015-06-27 13:21+0100\n"
+"PO-Revision-Date: 2015-06-27 13:41+0100\n"
+"Last-Translator: Torsten Silbermann <mail@tsilbermann.de>\n"
+"Language-Team: Germany (Torsten Silbermann) <mail@tsilbermann.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../controller.php:14
+msgid "Core Translation Updater"
+msgstr "Sprachen aktualisieren"
+
+#: ../controller.php:19
+msgid ""
+"Download latest translation file from official concrete5 GitHub repository."
+msgstr ""
+"Die aktuellsten Sprachdateien vom concrete5 GitHub Repository herunterladen."
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:27
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:52
+msgid "Unable to load stats."
+msgstr "Die Statistiken konnten nicht geladen werden."
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:49
+msgid "Please select a resource."
+msgstr "Bitte eine Quelle auswählen"
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:88
+msgid "Please select a language."
+msgstr "Bitte eine Sprache auswählen."
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:91
+msgid "Please select a valid language."
+msgstr "Bitte eine gültige Sprache auswählen."
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:96
+#, php-format
+msgid ""
+"You must create the directory %s and make it writable before you may run "
+"this tool. Additionally, all files within this directory must be writable."
+msgstr ""
+"Um das Übersetzungstool nutzen zu können, muss das Verzeichnis %s angelegt "
+"sein. Das Verzeichnis und die darin befindlichen Dateien müssen beschreibbar "
+"sein."
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:113
+msgid "Translation updated."
+msgstr "Die Übersetzung wurde aktualisiert."
+
+#: ../controllers/single_page/dashboard/system/multilingual/core_translation.php:115
+#, php-format
+msgid "Unable to get translation file: %s"
+msgstr "Die Sprachdatei %s konnte nicht abgerufen werden."
+
+#: ../single_pages/dashboard/system/multilingual/core_translation.php:11
+msgid "Select Language"
+msgstr "Sprache wählen"
+
+#: ../single_pages/dashboard/system/multilingual/core_translation.php:17
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: ../single_pages/dashboard/system/multilingual/core_translation.php:30
+msgid "Select Resource"
+msgstr "Quelle für Sprachdatei auswählen"
+
+#: ../single_pages/dashboard/system/multilingual/core_translation.php:35
+msgid "Which resource should I use?"
+msgstr "Welche Quelle sollte verwendet werden?"
+
+#: ../single_pages/dashboard/system/multilingual/core_translation.php:36
+#, php-format
+msgid "If you use concrete5 5.7+, please select %s"
+msgstr "Wenn concrete5 5.7+  verwendet wird, bitte %s wählen."
+
+#: ../single_pages/dashboard/system/multilingual/core_translation.php:40
+msgid "Select"
+msgstr "Auswahl"
+
+#~ msgid "Access Denied."
+#~ msgstr "Zugriff verweigert"
+
+#~ msgid "Block Designer"
+#~ msgstr "Block Designer"
+
+#~ msgid "Design your own content blocks within a few clicks!"
+#~ msgstr "Eigene Blöcke mit wenigen Klicks erstellen!"
+
+#~ msgid "-- None -- "
+#~ msgstr "— Keins —"
+
+#~ msgid "You do not have permission to install custom block types or add-ons."
+#~ msgstr ""
+#~ "Sie verfügen nicht über die Berechtigung zum Installieren eigener "
+#~ "Blocktypen oder Erweiterungen."
+
+#~ msgid "Block type installed successfully."
+#~ msgstr "Der Blocktyp wurde installiert."
+
+#~ msgid "The block type does not seem to have an existing config file."
+#~ msgstr "Der Blocktyp scheint keine vorhandene Konfigurationsdatei haben."
+
+#~ msgid "The block type does not seem to exist."
+#~ msgstr "Der Blocktyp scheint nicht zu existieren."
+
+#~ msgid ""
+#~ "Block type with handle <strong>%s</strong> already installed. Please use "
+#~ "a different handle, before continuing this process."
+#~ msgstr ""
+#~ "Ein Blocktyp mit der Kennung <strong>%s</strong> ist bereits installiert. "
+#~ "Bitte eine andere Kennung verwenden."
+
+#~ msgid ""
+#~ "Block type folder <strong>%s</strong> already exists. You want to <a href="
+#~ "\""
+#~ msgstr "Das Blocktyp-Album <strong>r%s</strong> existiert bereits."
+
+#~ msgid "Block handle <strong>%s</strong> does not match our pattern."
+#~ msgstr "Die Blockkennung <strong>%s</strong> entspricht nicht den Vorgaben."
+
+#~ msgid ""
+#~ "There was no block handle found in the post data. Please refresh the page"
+#~ msgstr ""
+#~ "In den Postdaten wurde keine Blockkennung gefunden. Bitte die Seite "
+#~ "aktualisieren."
+
+#~ msgid "No"
+#~ msgstr "Nein"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid ""
+#~ "Directory <strong>%s</strong> does not exist and needs to exist before "
+#~ "you can use this package. Please create this in your environment and give "
+#~ "it read, write and execute permissions (<strong>0777</strong>)."
+#~ msgstr ""
+#~ "Das Verzeichnis <strong>%s</strong> existiert nicht. Um dieses Paket "
+#~ "nutzen können, muss es angelegt werden und die Lese-, Schreibberechtigung "
+#~ "<strong>(0777).</strong> erhalten."
+
+#~ msgid "Block handle"
+#~ msgstr "Blockkennung"
+
+#~ msgid "Field <strong>%s</strong> is required"
+#~ msgstr "Das Feld <strong>%s</strong> ist erforderlich"
+
+#~ msgid "Block name"
+#~ msgstr "Blockname"
+
+#~ msgid "Block type %s created successfully."
+#~ msgstr "Der Blocktyp %s wurde installiert."
+
+#~ msgid "There was no slug found for row #%s. Please try again."
+#~ msgstr ""
+#~ "Für die Zeile #%s konnte kein Adressegment gefunden werden. Bitte erneut "
+#~ "versuchen."
+
+#~ msgid "Other"
+#~ msgstr "Andere"
+
+#~ msgid "Label"
+#~ msgstr "Beschriftung"
+
+#~ msgid "As seen in the form"
+#~ msgstr "wie bei der Bearbeitung angezeigt"
+
+#~ msgid "Slug"
+#~ msgstr "Adresssegment"
+
+#~ msgid "This name will be used in the view file (a-zA-Z characters only)"
+#~ msgstr ""
+#~ "Dieser Name wird in der view.php Datei verwendet (nur Buchstaben "
+#~ "verwenden)."
+
+#~ msgid "Required?"
+#~ msgstr "Pflichtfeld"
+
+#~ msgid "Wrapper HTML open"
+#~ msgstr "HTML-Wrapper Anfang"
+
+#~ msgid "i.e."
+#~ msgstr "z.B."
+
+#~ msgid "Wrapper HTML close"
+#~ msgstr "HTML-Wrapper Ende"
+
+#~ msgid "Link opens in a new window"
+#~ msgstr "Link öffnet in neuem Fenster"
+
+#~ msgid "Image"
+#~ msgstr "Bild"
+
+#~ msgid "An image selector"
+#~ msgstr "Bildauswahl"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "None"
+#~ msgstr "Nichts"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Width"
+#~ msgstr "Breite"
+
+#~ msgid "Height"
+#~ msgstr "Höhe"
+
+#~ msgid "A page selector"
+#~ msgstr "Seitenauswahl"
+
+#~ msgid ""
+#~ "A field with multiple options (also known as dropdown), where you need to "
+#~ "pick one"
+#~ msgstr ""
+#~ "Ein Feld mit mehreren Optionen (Dropdown), in dem eine Option ausgewählt "
+#~ "werden muss."
+
+#~ msgid "No select choices were entered for row #%s."
+#~ msgstr "Für die Zeile #%s wurde keine Auswahl getätigt."
+
+#~ msgid "Select choices (one per line)"
+#~ msgstr "Auszuwählende Optionen (eine pro Zeile)"
+
+#~ msgid "Static HTML"
+#~ msgstr "Statisches HTML"
+
+#~ msgid "A static HTML field"
+#~ msgstr "Eine statisches HTML-Feld"
+
+#~ msgid ""
+#~ "Anything entered here will be directly outputted to the block view. Users "
+#~ "will not be able to edit it."
+#~ msgstr ""
+#~ "Der hier eingetragene HTML-Code wird direkt ausgegeben und kann nicht vom "
+#~ "Benutzer bearbeitet werden."
+
+#~ msgid "Textarea"
+#~ msgstr "Textbereich"
+
+#~ msgid "A simple text area with no editing options"
+#~ msgstr "Eine einfacher Textbereich ohne Bearbeitungsoptionen"
+
+#~ msgid "Text Box"
+#~ msgstr "Textfeld"
+
+#~ msgid "A text input field"
+#~ msgstr "Einzeiliges Feld zur Texteingabe"
+
+#~ msgid "Maximum number of characters"
+#~ msgstr "Maximale Anzahl von Zeichen"
+
+#~ msgid "Between 1 and 255"
+#~ msgstr "zwischen 1 und 255"
+
+#~ msgid "A text input field, where you would enter an http:// URL"
+#~ msgstr "Ein Texteingabefeld für eine URL"
+
+#~ msgid "WYSIWYG"
+#~ msgstr "WYSIWYG-Editor"
+
+#~ msgid "A 'What-You-See-Is-What-You-Get' text area"
+#~ msgstr ""
+#~ "Ein „What-You-See-Is-What-You-Get“ (englisch für „Was du siehst, ist "
+#~ "[das,] was du bekommst.“) Textbereich"
+
+#~ msgid "Block info"
+#~ msgstr "Blockinfo"
+
+#~ msgid ""
+#~ "Create a new block type by entering some basic info and adding one or "
+#~ "more fields (fields section)."
+#~ msgstr ""
+#~ "Ein neuer Blocktyp kann durch das Eingeben einiger Informationen und das "
+#~ "Hinzufügen von einem oder mehreren Feldern erstellt werden."
+
+#~ msgid "Basics"
+#~ msgstr "Grundeinstellungen"
+
+#~ msgid "Interface"
+#~ msgstr "Benutzeroberfläche"
+
+#~ msgid "Handle"
+#~ msgstr "Kennung"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Human-readable name"
+#~ msgstr "Angezeigter Name"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Between 400 and 1800"
+#~ msgstr "zwischen 400 und 1800"
+
+#~ msgid "Between 500 and 1000"
+#~ msgstr "zwischen 500 und 1000"
+
+#~ msgid "Direct install"
+#~ msgstr "Direkte Installation"
+
+#~ msgid "Block type set"
+#~ msgstr "Album für Blocktypen"
+
+#~ msgid "For advanced users only. Default values should be OK for all usages."
+#~ msgstr ""
+#~ "Nur für fortgeschrittene Benutzer. Standardwerte sind für die reguläre "
+#~ "Nutzung ausreichend."
+
+#~ msgid "Cache block record"
+#~ msgstr "Blockdatensatz im Cache speichern"
+
+#~ msgid "Cache block output"
+#~ msgstr "Blockausgabe im Cache speichern"
+
+#~ msgid "Cache block output on post"
+#~ msgstr "Blockausgabe vom Post im Cache speichern"
+
+#~ msgid "Cache block output for registered users"
+#~ msgstr "Blockausgabe für angemeldete Benutzer im Cache speichern"
+
+#~ msgid "Cache block output lifetime"
+#~ msgstr "Lebensdauer des Caches für die Blockausgabe"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Row"
+#~ msgstr "Zeile"
+
+#~ msgid "Fields"
+#~ msgstr "Felder"
+
+#~ msgid ""
+#~ "There are no fields added yet. Start adding one by clicking one of the "
+#~ "field types below."
+#~ msgstr ""
+#~ "Es sind noch keine Feldtypen hinzugefügt worden. Zum Hinzufügen bitte "
+#~ "einen Feldtypen weiter unten anklicken."
+
+#~ msgid "Add a field"
+#~ msgstr "Feld hinzufügen"
+
+#~ msgid "Make the block!"
+#~ msgstr "Block erstellen"
+
+#~ msgid "Developed by"
+#~ msgstr "Entwickelt von"
+
+#~ msgid "Block order info"
+#~ msgstr "Info Blockreihenfolge"
+
+#~ msgid ""
+#~ "Order your blocks for each block type set. The order in which you arrange "
+#~ "blocks is in which order they will show up while dragging blocks on the "
+#~ "front end."
+#~ msgstr ""
+#~ "Die Blöcke können in den Alben für Blocktypen sortiert werden. In dieser "
+#~ "Reihenfolge erscheint die Blockauswahl beim Bearbeiten der Seiten."
+
+#~ msgid "A unknown field type was posted. Please try again."
+#~ msgstr "Ein unbekannter Feldtyp wurde gepostet. Bitte erneut versuchen."
+
+#~ msgid "Cache"
+#~ msgstr "Cache"
+
+#~ msgid ""
+#~ "Lowercase letters and underscores only (without starting/ending with "
+#~ "underscores)"
+#~ msgstr ""
+#~ "Nur Kleinbuchstaben und Unterstriche (nicht am Anfang/Ende) verwenden."
+
+#~ msgid "Front End Uploader"
+#~ msgstr "Dateien hochladen"
+
+#~ msgid "Pop up the Concrete5 Filemanager directly from a front end page."
+#~ msgstr ""
+#~ "Die Dateiverwaltung direkt von einer Seite der Website aus anzeigen."
+
+#~ msgid "You must select at least one fileset."
+#~ msgstr "Bite eine Datei auswählen."
+
+#~ msgid "At least one file type is required."
+#~ msgstr "Es ist mindestens ein Dateityp erforderlich."
+
+#~ msgid "File Set(s)"
+#~ msgstr "Dateialbum/ -alben"
+
+#~ msgid "Specific file"
+#~ msgstr "Bestimmte Datei"
+
+#~ msgid "Magic Data expression returns file set(s)"
+#~ msgstr "Magic Data expression returns file set(s)"
+
+#~ msgid "Magic Data expression returns file id"
+#~ msgstr "Magic Data Bezeichnung gibt die datei-ID aus"
+
+#~ msgid "file"
+#~ msgstr "Datei"
+
+#~ msgid ""
+#~ "To enable your iOS device to upload files, you may need to install the "
+#~ "iCab Mobile App."
+#~ msgstr ""
+#~ "Um mit iOS-Geräten Dateien hochladen zu können, muss eventuell die iCab "
+#~ "Mobile-App installiert werden."
+
+#~ msgid ""
+#~ "You must have at least one file set defined before you can add a Front "
+#~ "End File Uploader block."
+#~ msgstr ""
+#~ "Es muss mindestens ein Dateialbum ausgewählt werden, um den Block "
+#~ "hinzufügen zu können."
+
+#~ msgid ""
+#~ "You must have at least one file type/extension defined before you can add "
+#~ "a Front End File Uploader block."
+#~ msgstr ""
+#~ "Es muss mindestens ein Dateityp/eine Dateiendung ausgewählt werden, um "
+#~ "den Block hinzufügen zu können."
+
+#~ msgid "Permission"
+#~ msgstr "Rechte"
+
+#~ msgid "Dialog"
+#~ msgstr "Dialog"
+
+#~ msgid "File Types"
+#~ msgstr "Dateitypen"
+
+#~ msgid "Destination"
+#~ msgstr "Ziel"
+
+#~ msgid "Processing"
+#~ msgstr "Prozess"
+
+#~ msgid "iOS Devices"
+#~ msgstr "iOS-Geräte"
+
+#~ msgid "Who has front end uploader access:"
+#~ msgstr "Rechte, Dateien hochzuladen:"
+
+#~ msgid "Select group:"
+#~ msgstr "Gruppe auswählen:"
+
+#~ msgid ""
+#~ "Enter %sMagic Data%s symbols here and they will be evaluated when the "
+#~ "page is shown. If they evaluate to true or an equivalent, the front end "
+#~ "uploader will be enabled."
+#~ msgstr ""
+#~ "Hier %sMagic Data%s Symbole eingeben. Diese werden ausgewertet, wenn die "
+#~ "Seite aufgerufen wird. Wenn sie auf true oder ähnlich eingestellt sind, "
+#~ "ist der Frontend-Uploader aktiviert."
+
+#~ msgid "Upload dialog width:"
+#~ msgstr "Breite:"
+
+#~ msgid "pixels"
+#~ msgstr "Pixel"
+
+#~ msgid "Upload dialog height:"
+#~ msgstr "Höhe:"
+
+#~ msgid "Dialog title:"
+#~ msgstr "Titel:"
+
+#~ msgid "Optional prompt information within dialog:"
+#~ msgstr "Optionale Hinweise:"
+
+#~ msgid "Upload to:"
+#~ msgstr "Hochladen nach:"
+
+#~ msgid "Upload to File Set(s):"
+#~ msgstr "Hochaden zum Dateialbum:"
+
+#~ msgid ""
+#~ "Enter %sMagic Data%s symbols here and they will be evaluated to provide "
+#~ "either one or more file set IDs,  or a single file ID as required by the "
+#~ "selection above."
+#~ msgstr ""
+#~ "Hier %sMagic Data%s Symbole eingeben. Diese werden ausgewertet, um "
+#~ "entweder eine oder mehrere Alben-IDs oder eine einzelne Datei-ID durch "
+#~ "Auswahl erforderlich zu machen."
+
+#~ msgid "Resize images to maximum width:"
+#~ msgstr "Bilder skalieren bis zu einer Maximalen Breite von:"
+
+#~ msgid "Resize images to maximum height:"
+#~ msgstr "Bilder skalieren bis zu einer Maximalen Höhe von:"
+
+#~ msgid "Upload size limit:"
+#~ msgstr "Maximale Dateigröße:"
+
+#~ msgid "kbytes"
+#~ msgstr "KByte"
+
+#~ msgid "Upload timeout:"
+#~ msgstr "Zeitüberschreitung bei Hochladen:"
+
+#~ msgid "minutes"
+#~ msgstr "Minuten"
+
+#~ msgid "seconds"
+#~ msgstr "Sekunden"
+
+#~ msgid "iOS Dialog Message:"
+#~ msgstr "iOS Dialog-Nachricht:"
+
+#~ msgid "Associated href:"
+#~ msgstr "Link zur iCab-Website:"
+
+#~ msgid ""
+#~ "To enable iOS devices to upload files, you may also need to select \"Skip "
+#~ "file validation in dialog\" and \"Don't clear file selection\" on the "
+#~ "Upload Dialog tab."
+#~ msgstr ""
+#~ "Damit Dateien von iOS-Geräten hochgeladen werden können, müssen eventuell "
+#~ "auch die Option \"Hinweis auf unzulässige Dateien überspringen\" und "
+#~ "\"Dateiauswahl nicht löschen\" im Reiter \"Upload-Dialog\" aktiviert "
+#~ "werden."
+
+#~ msgid "Upload to %s"
+#~ msgstr "Hochladen nach %s"
+
+#~ msgid "Upload File"
+#~ msgstr "Datei hochladen"
+
+#~ msgid "Front End File Uploader"
+#~ msgstr "Dateien hochladen"
+
+#~ msgid ""
+#~ "Upload files directly from a front end page. You can upload to a "
+#~ "specified file or to one or more filesets. If you also have %sMagic Data"
+#~ "%s, you can use Magic Data expressions to specify the destination of "
+#~ "uploads and who has access."
+#~ msgstr ""
+#~ "Dateien direkt von der Website (Frontend) hochladen. Es können einzelne "
+#~ "oder mehrere Dateien zu einem oder mehreren Alben hochgeladen werden. "
+#~ "Wenn  %sMagic Data%s installiert ist, können Sie Magic Data Bezeichnungen "
+#~ "verwendet werden, um das Ziel des Uploads und Zugangsberechtigungen "
+#~ "anzugeben."
+
+#~ msgid "You need to select an image file to upload."
+#~ msgstr "Bitte zuerst eine Datei auswählen."
+
+#~ msgid "You need to enter a title for the image."
+#~ msgstr "Bitte einen Titel für das Bild eingeben."
+
+#~ msgid "You need to enter a description for the image."
+#~ msgstr "Bitte eine Beschreibung für das Bild eingeben."
+
+#~ msgid "Upload history has been cleared."
+#~ msgstr "Verlauf wurde gelöscht."
+
+#~ msgid "You are not allowed to upload files of the type {1}."
+#~ msgstr ""
+#~ "Sie haben nicht die nötigen Rechte, Dateien des Typs {1} hochzuladen."
+
+#~ msgid ""
+#~ "An unknown error has occured. If the problem persists, please contact the "
+#~ "site administrator."
+#~ msgstr ""
+#~ "Ein unbekannter Fehler ist aufgetreten. Wenn das Problem weiterhin "
+#~ "besteht, wenden Sie sich bitte an den Administrator."
+
+#~ msgid "Ready."
+#~ msgstr "Fertig"
+
+#~ msgid "Uploading"
+#~ msgstr "Hochladen"
+
+#~ msgid "Drop files here to upload"
+#~ msgstr "Dateien zum Hochladen hier ablegen"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Clear History"
+#~ msgstr "Verlauf löschen"
+
+#~ msgid "{1} - file size {2} kbytes is greater than %s kbytes."
+#~ msgstr "{1} - Dateigröße {2} KBytes ist größer als %s KBytes."
+
+#~ msgid "Front End Uploader (edit mode)"
+#~ msgstr "Dateien hochladen (Bearbeitungsmodus)"
+
+#~ msgid ""
+#~ "If this message still shows outside of Edit Mode, please Clear The Cache."
+#~ msgstr ""
+#~ "Wenn dieser Hinweis außerhalb des Bearbeitungsmodus angezeigt wird, bitte "
+#~ "den Cache leeren."
+
+#~ msgid "You are not allowed to upload files of this type."
+#~ msgstr "Sie haben nicht die Berechtigung, Dateien diese Typs hochzuladen."
+
+#~ msgid "No file chosen"
+#~ msgstr "Keine Datei ausgewählt"
+
+#~ msgid "Upload"
+#~ msgstr "Hochladen"
+
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
+
+#~ msgid "Add another file"
+#~ msgstr "Weitere datei hinzufügen"
+
+#~ msgid "Choose File"
+#~ msgstr "Datei auswählen"
+
+#~ msgid "Required title"
+#~ msgstr "Titel (Pflichtangabe)"
+
+#~ msgid "Optional title"
+#~ msgstr ""
+#~ "Titel (optional - bei freigelassenem Feld wird der Dateiname verwendet)"
+
+#~ msgid "Required description/caption"
+#~ msgstr "Beschreibung/Bezeichnung (Pflichtangabe)"
+
+#~ msgid "Optional description/caption"
+#~ msgstr "Beschreibung/Bezeichnung (optional)"
+
+#~ msgid "Nobody"
+#~ msgstr "Niemand"
+
+#~ msgid "Page Owner"
+#~ msgstr "Seitenbesitzer"
+
+#~ msgid "Specified User"
+#~ msgstr "Bestimmter Benutzer"
+
+#~ msgid "User Group"
+#~ msgstr "Benutzergruppe"
+
+#~ msgid "Any Registered User"
+#~ msgstr "Jeder registrierte Benutzer"
+
+#~ msgid "Magic Data expression returns true"
+#~ msgstr "Magic Data Bezeichnung gibt true aus"
+
+#~ msgid "Unable to identify originating upload block."
+#~ msgstr "Unable to identify originating upload block."
+
+#~ msgid "Unable to identify originating page."
+#~ msgstr "Kann ursprüngliche Seite nicht finden."
+
+#~ msgid "You need to select a file to upload."
+#~ msgstr "Bite eine Datei auswählen."
+
+#~ msgid "Unable to save the upload into a temporary folder for processing."
+#~ msgstr "Datei konnte nicht im Dateiordner gespeichert werden."
+
+#~ msgid "Unable to load originating upload block."
+#~ msgstr "Unable to load originating upload block."
+
+#~ msgid "You need to enter a title for the file."
+#~ msgstr "Bitte einen Dateititel angeben."
+
+#~ msgid "You need to enter a description for the file."
+#~ msgstr "Bitte eine Dateibeschreibung angeben."
+
+#~ msgid "Missing file size."
+#~ msgstr "Dateigröße nicht erkannt"
+
+#~ msgid "File size %s kbytes is greater than %s kbytes."
+#~ msgstr "Dateigröße %s KBytes ist größer als %s KBytes."
+
+#~ msgid "You are not allowed to upload files of the type %s."
+#~ msgstr ""
+#~ "Sie haben nicht die nötigen Rechte, Dateien des Typs %s hochzuladen."
+
+#~ msgid "Unable to identify file for upload."
+#~ msgstr "Datei konnte nicht gefunden werden."
+
+#~ msgid "Unable to identify file for upload from magic data expression %s."
+#~ msgstr "Datei (Magic Data %s) konnte nicht gefunden werden."
+
+#~ msgid ""
+#~ "Unable to identify file set(s) for upload from magic data expression %s."
+#~ msgstr ""
+#~ "Dateialbum für das Hochladen (Magic Data %s) konnte nicht gefunden werden."
+
+#~ msgid "Unable to identify file set(s) for upload."
+#~ msgstr "Dateialbum/ -alben für das Hochladen konnte nicht gefunden werden."
+
+#~ msgid "Unable to use file for upload target."
+#~ msgstr ""
+#~ "Es ist nicht möglich, die Datei als Ziel zum Hochladen zu verwenden."
+
+#~ msgid "Unable to use file set for upload target."
+#~ msgstr ""
+#~ "Es ist nicht möglich, das Dateialbum als Ziel zum Hochladen zu verwenden."
+
+#~ msgid "Multiple existing files [%s] match the uploaded file."
+#~ msgstr "Vorhandene Dateien [%s] entsprechen der hochgeladenen Datei."
+
+#~ msgid "Missing image dimensions."
+#~ msgstr "Bildmaße nicht angegeben"
+
+#~ msgid "Unable to modify image - %s"
+#~ msgstr "Folgendes Bild konnte nicht geändert werden: %s"
+
+#~ msgid "Unable to import file %s, %s"
+#~ msgstr "Datei %s, %s konnte nicht importiert werden"
+
+#~ msgid "<em>%s</em> replaced in set(s) <em>%s</em>"
+#~ msgstr "<em>%s</em> wurde in Alben/Album ersetzt:<em>%s</em>"
+
+#~ msgid "<em>%s</em> replaced"
+#~ msgstr "<em>%s</em> ersetzt"
+
+#~ msgid "<em>%s</em> uploaded in set(s) <em>%s</em>"
+#~ msgstr "<em>%s</em> wurde in Album/Alben hochgeladen: <em>%s</em>"
+
+#~ msgid "<em>%s</em> uploaded"
+#~ msgstr "<em>%s</em> hochgeladen"
+
+#~ msgid "File upload did not complete."
+#~ msgstr "Das Hochladen der Datei konnte nicht abgeschlossen werden."
+
+#~ msgid ""
+#~ "The uploaded file size exceeds the maximum configured for the web server."
+#~ msgstr ""
+#~ "Die Dateigröße der hochzuladenden Datei überschreitet das für den Server "
+#~ "konfigurierte Maximum."
+
+#~ msgid "The uploaded file size exceeds the maximum allowed."
+#~ msgstr ""
+#~ "Die Dateigröße der hochzuladenden Datei überschreitet das erlaubte "
+#~ "Maximum."
+
+#~ msgid "The uploaded file was only partially uploaded."
+#~ msgstr "Die ausgewählte Datei wurde nur teilweise hochgeladen."
+
+#~ msgid "No file was uploaded."
+#~ msgstr "Es wurde keine Datei hochgeladen."
+
+#~ msgid ""
+#~ "Unable to upload because the environment is missing a temporary folder to "
+#~ "upload into."
+#~ msgstr ""
+#~ "Das Hochladen der Datei ist nicht möglich, da kein Dateiordner im System "
+#~ "gefunden wurde."
+
+#~ msgid "Failed to save file to server."
+#~ msgstr "Das Speichern der Datei auf dem Server ist fehlgeschlagen."
+
+#~ msgid "File upload rejected by file type extension."
+#~ msgstr "Dateityp wurde abgelehnt"
+
+#~ msgid "Unknown upload error."
+#~ msgstr "Ein unbekannter Fehler ist aufgetreten."
+
+#~ msgid "Enter title in dialog"
+#~ msgstr "Feld \"Dateititel\""
+
+#~ msgid ""
+#~ "Show a field to enter a title for the file within the dialog. Not "
+#~ "applicable if Drag/Drop selection is enabled."
+#~ msgstr ""
+#~ "Zeigt ein Feld in dem ein alternativer Dateititel (alle Schreibweisen "
+#~ "erlaubt) angegeben werden kann (wird nicht bei Drag & Drop - Funktion "
+#~ "angezeigt)."
+
+#~ msgid "Require title in dialog"
+#~ msgstr "ist Pflichtangabe"
+
+#~ msgid "Make the title a required field in the dialog."
+#~ msgstr "Alternative Dateititel zur Pflichtangabe im Upload-Dialog machen."
+
+#~ msgid "Enter description in dialog"
+#~ msgstr "Feld \"Dateibeschreibung\""
+
+#~ msgid ""
+#~ "Show a field to enter a description for the file within the dialog. Not "
+#~ "applicable i if Drag/Drop selection is enabled."
+#~ msgstr ""
+#~ "Zeigt ein Feld in dem eine Dateibeschreibung angegeben werden kann (wird "
+#~ "nicht bei Drag & Drop - Funktion angezeigt)."
+
+#~ msgid "Require description in dialog"
+#~ msgstr "ist Pflichtangabe"
+
+#~ msgid "Make the description a required field in the dialog."
+#~ msgstr "Dateibeschreibung zur Pflichtangabe im Upload-Dialog machen."
+
+#~ msgid "Show upload history"
+#~ msgstr "Verlauf anzeigen"
+
+#~ msgid "Show a list of files that have been uploade from this dialog."
+#~ msgstr "Eine Liste der bereits hochgeladenen Dateien anzeigen"
+
+#~ msgid "Show thumbnail in history"
+#~ msgstr "Vorschaubild im Verlauf anzeigen"
+
+#~ msgid "Show thumbnails within the history display."
+#~ msgstr "Kleine Vorschaubilder der Dateien im Verlauf anzeigen."
+
+#~ msgid "Show title in history"
+#~ msgstr "Titel im Verlauf anzeigen"
+
+#~ msgid "Show file titles within the history display."
+#~ msgstr "Dateititel im Verlauf anzeigen."
+
+#~ msgid "Show description in history"
+#~ msgstr "Beschreibung im Verlauf anzeigen"
+
+#~ msgid "Show file descriptions within the history display."
+#~ msgstr "Dateibeschreibung im Verlauf anzeigen."
+
+#~ msgid "Auto upload"
+#~ msgstr "Automatisches Hochladen"
+
+#~ msgid "Automatically start upload when a file is selected."
+#~ msgstr ""
+#~ "Automatisches Hochladen starten, nachdem eine Datei ausgewählt wurde."
+
+#~ msgid "Ignore extension case"
+#~ msgstr "Schreibweise der Dateiendung ignorieren"
+
+#~ msgid ""
+#~ "Ignore file extension case. Concrete5 prefers lowercase extensions. "
+#~ "Checking this will allow uppercase extensions."
+#~ msgstr ""
+#~ "Die Schreibweise der Dateiendung wird ignoriert. Das System bevorzugt "
+#~ "Kleinbuchstaben in den Dateibezeichnungen. Ist diese Option aktiviert, "
+#~ "werden auch Großbuchstaben akzeptiert."
+
+#~ msgid "Skip file validation in dialog"
+#~ msgstr "Hinweis auf unzulässige Dateien überspringen"
+
+#~ msgid ""
+#~ "Skip validation in the upload dialog and leave it all to the server "
+#~ "processing."
+#~ msgstr ""
+#~ "Den Hinweis auf unzulässige Dateien im Dialog überspringen und die "
+#~ "Prüfung dem Server überlassen (beim Hochladen)."
+
+#~ msgid "Don't clear file selection"
+#~ msgstr "Verlauf nicht löschen"
+
+#~ msgid "Do not clear the file selection after each upload has completed."
+#~ msgstr ""
+#~ "Die vorher ausgewählten Dateien werden nach jedem Hochladen weiterhin "
+#~ "angezeigt."
+
+#~ msgid "Drag/Drop selection"
+#~ msgstr "Auswahl verschieben"
+
+#~ msgid ""
+#~ "Enable html5 drag/drop selection of files where supported by browser. Not "
+#~ "available if title or description fields are selected."
+#~ msgstr ""
+#~ "HTML5 Drag & Drop-Funktion aktivieren (nicht bei aktivierten Titel- oder "
+#~ "Beschreibungsfeld möglich)."
+
+#~ msgid "Enable multiple upload"
+#~ msgstr "Hochladen mehrerer Dateien aktivieren"
+
+#~ msgid ""
+#~ "Multiple files can always be uploaded by repeating the upload process. "
+#~ "When checked, the uploader will accept multiple file uploads in a single "
+#~ "action."
+#~ msgstr ""
+#~ "Mehrere Dateien können durch wiederholen des Hochlade-Prozesses geladen "
+#~ "werden. Bei Aktivierung ist das Hochladen mehrerer Dateien auf einmal "
+#~ "möglich."
+
+#~ msgid "Use jQuery.UI for dialogs"
+#~ msgstr "jQuery.UI für Dialogfenster verwenden"
+
+#~ msgid ""
+#~ "Popup dialogs default to the concrete5/jQueryUI dialog. Alternatively, "
+#~ "use fancybox for dialogs."
+#~ msgstr ""
+#~ "Dialogfenster verwenden standardmäßig das jQueryUI des Systems. "
+#~ "Alternativ kann Fancybox für Dialogfenster verwendet werden."
+
+#~ msgid "Use Fancybox for dialogs"
+#~ msgstr "Fancybox für Dialogfenster benutzen"
+
+#~ msgid ""
+#~ "Use fancybox for dialogs in place of the default concrete5/jQueryUI "
+#~ "dialog box."
+#~ msgstr "Fancybox anstelle der Dialogfenster des Systems benutzen"
+
+#~ msgid "Show a 'Cancel' button in dialogs"
+#~ msgstr "'Abbrechen' Schaltfläche in Dialogfenstern zeigen"
+
+#~ msgid "When checked, dialog forms will show a cancel button."
+#~ msgstr ""
+#~ "Bei Aktivierung wird eine 'Abbrechen' Schaltfläche in den Dialogfenstern "
+#~ "angezeigt."
+
+#~ msgid "Apply ccm.app styling to dialogs"
+#~ msgstr "ccm.app styling für Dialogfenster verwenden"
+
+#~ msgid ""
+#~ "When checked, dialog forms will be wrapped in .ccm-ui class to apply ccm."
+#~ "app.css styles."
+#~ msgstr ""
+#~ "Bei Aktivierung werden die Dialogfenster innerhalb einer .ccm-ui Klasse "
+#~ "ausgegeben, um CSS-Bearbeitungen zu ermöglichen."
+
+#~ msgid "Show message to iOS devices"
+#~ msgstr "Hinweis für iOS-Geräte anzeigen"
+
+#~ msgid "The message will be shown in the upload dialog on iOS devices."
+#~ msgstr "Der Hinweis wird im Upload-Dialog auf iOS-Geräten angezeigt."
+
+#~ msgid "Show link to iOS devices"
+#~ msgstr "Link für iOS-Geräte anzeigen"
+
+#~ msgid "The link will be shown in the upload dialog on iOS devices."
+#~ msgstr "Der Link wird im Upload-Dialog auf iOS-Geräten angezeigt."
+
+#~ msgid "Show only if iCab is not detected"
+#~ msgstr "Nur zeigen, wenn iCab(Browser) nicht erkannt wurde."
+
+#~ msgid ""
+#~ "The message and/or link will only be shown if iCab Mobile is not detected."
+#~ msgstr ""
+#~ "Der Hinweis und/oder Link wird nur angezeigt, wenn iCab-Mobile(Browser) "
+#~ "nicht erkannt wurde."
+
+#~ msgid "Enable resizing of uploaded image files"
+#~ msgstr "Bildgröße ändern"
+
+#~ msgid ""
+#~ "Resize images on upload, before they are entered into the Concrete5 files."
+#~ msgstr ""
+#~ "Die Maße von Bildern können während des Upload-Dialogs angepasst werden."
+
+#~ msgid "Crop when resizing"
+#~ msgstr "Bei Größenänderung beschneiden"
+
+#~ msgid ""
+#~ "Resized image files will normally be scaled to fit completely within the "
+#~ "specified box. When crop is enabled, one dimension may be cropped to make "
+#~ "a file exactly fit the box."
+#~ msgstr ""
+#~ "Größenänderungen bei einem Bild skalieren selbiges normalerweise, um es "
+#~ "der entsprechenden Box anzupassen. Wenn das Zuschneider aktiviert ist, "
+#~ "kann ein Maß (Länge oder Breite) des Bildes beschnitten werden, um es der "
+#~ "Box anzupassen."
+
+#~ msgid "Do not replace"
+#~ msgstr "Dateien nicht ersetzen"
+
+#~ msgid ""
+#~ "Existing files will not be replaced. Instead, uploaded files will always "
+#~ "be uploaded as new files."
+#~ msgstr ""
+#~ "Vorhandene Dateien werden nicht ersetzt. Stattdessen werden Dateien mit "
+#~ "gleichem Namen hinzugefügt."
+
+#~ msgid "Correct rotation"
+#~ msgstr "Richtige Ausrichtung"
+
+#~ msgid ""
+#~ "Attempt to correct image rotation based on exif data. This feature is "
+#~ "experimental and may give unpredictable results."
+#~ msgstr ""
+#~ "Bildrotation, basierend auf Exif-Daten korrigieren. Diese Funktion ist "
+#~ "experimentell und kann zu falschen Ergebnissen führen."
+
+#~ msgid "Reload after upload"
+#~ msgstr "Nach dem Hochladen aktualisieren"
+
+#~ msgid ""
+#~ "Reload the page after the upload dialog is closed. This was a built in "
+#~ "behaviour up to version 2.0.4 and is now optional."
+#~ msgstr ""
+#~ "Lädt die Seite nach dem Schließen des Upload-Dialog neu (bis Version "
+#~ "2.0.4 implementiert, nun optional)"
+
+#~ msgid "Close immediately after upload"
+#~ msgstr "Direkt nach dem Hochladen schließen"
+
+#~ msgid "Immediately close the uploader when upload is complete."
+#~ msgstr "Das Dialogfenster zu Hochladen nach dem Hochladen schließen"
+
+#~ msgid "Enable big timeouts"
+#~ msgstr "Größere Zeitüberschreitungen"
+
+#~ msgid ""
+#~ "The timeout is normally set in seconds. This option changes the timeout "
+#~ "scale to minutes. NOTE: This will not override any server/php limits."
+#~ msgstr ""
+#~ "Zeitüberschreitungen beim Hochladen sind normalerweise in Sekunden "
+#~ "festgelegt. Diese Option ermöglicht Zeitüberschreitungen von mehreren "
+#~ "Minuten. HINWEIS: Diese Einstellung ersetzt keine möglichen Server-/PHP-"
+#~ "Einstellungen."
+
+#~ msgid "Enable limit on upload size"
+#~ msgstr "Limit für Dateigröße"
+
+#~ msgid ""
+#~ "Restrict the size of uploaded files. NOTE: This will not override any "
+#~ "server/php limits."
+#~ msgstr ""
+#~ "Beschränkt die Dateigröße der hochzuladenden Dateien. HINWEIS: Diese "
+#~ "Einstellung ersetzt keine möglichen Server-/PHP-Einstellungen."
+
+#~ msgid "Upload refused by server."
+#~ msgstr "Hochladen vom Server abgelehnt."
+
+#~ msgid "No file data."
+#~ msgstr "Keine Dateidaten"
+
+#~ msgid "You do not have permission to upload files here"
+#~ msgstr "Sie haben nicht die nötigen Rechte, Dateien hier hochzuladen."
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Upload files to a fileset directly from a front end page."
+#~ msgstr "Dateien direkt von der Website in ein Album laden."
+
+#~ msgid "Front End uploader BLOCK"
+#~ msgstr "Front End uploader BLOCK"
+
+#~ msgid "File size"
+#~ msgstr "Dateigröße"
+
+#~ msgid "kbytes."
+#~ msgstr "KByte."
+
+#~ msgid "replaced in set"
+#~ msgstr "wurde ersetzt im Album:"
+
+#~ msgid "uploaded to set"
+#~ msgstr "wurde hinzugefügt zum Album:"
+
+#~ msgid "Generating Thumbnail: imported_fv_obj is no longer an object: "
+#~ msgstr "Generating Thumbnail: imported_fv_obj is no longer an object: "
+
+#~ msgid ""
+#~ "Generating Thumbnail: imported_fv_obj is no longer class FileVersion: "
+#~ msgstr ""
+#~ "Generating Thumbnail: imported_fv_obj is no longer class FileVersion: "
+
+#~ msgid "Generating Thumbnail: imported_fv_obj does not have method getFile."
+#~ msgstr "Generating Thumbnail: imported_fv_obj does not have method getFile."
+
+#~ msgid "Generating Thumbnail: faulty file object returned:"
+#~ msgstr "Generating Thumbnail: faulty file object returned:"
+
+#~ msgid "Generating Thumbnail: fobj is not class File: "
+#~ msgstr "Generating Thumbnail: fobj is not class File: "
+
+#~ msgid "OK."
+#~ msgstr "OK."
